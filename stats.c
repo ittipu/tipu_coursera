@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <Stats> 
+ * @brief <print some statistics on the given data >
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Md. Kamruzzaman Tipu>
+ * @date <30/06/2020 >
  *
  */
 

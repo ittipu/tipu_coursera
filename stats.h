@@ -9,32 +9,47 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.h> 
+ * @brief <define all the function here >
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Md. Kamruzzaman Tipu>
+ * @date <30/06/2020 >
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+/* Prints the statistics of an array including minimum, maximum, mean, and median*/
 
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
+int print_statistics();
+
+/* Array of data and a length, prints the array to the screen*/
+
+
+int print_arry();
+
+/* Array of data and a length, returns the median value */
+
+int find_median();
+
+/* Array of data and a length, returns the mean*/
+
+int find_mean();
+
+/*Array of data and a length, returns the maximum*/
+
+int find_maximum();
+
+/*Array of data and a length, returns the minimum*/
+
+int find_minimum();
+
+/*Array of data and a length, sorts the array from largest to smallest.*/
+int sort_arry();
+
+
 
 
 #endif /* __STATS_H__ */
