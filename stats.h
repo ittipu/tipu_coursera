@@ -21,33 +21,13 @@
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Prints the statistics of an array including minimum, maximum, mean, and median*/
-
-int print_statistics();
-
-/* Array of data and a length, prints the array to the screen*/
-
-
-int print_arry();
-
-/* Array of data and a length, returns the median value */
-
-int find_median();
-
-/* Array of data and a length, returns the mean*/
-
-int find_mean();
-
-/*Array of data and a length, returns the maximum*/
-
-int find_maximum();
-
-/*Array of data and a length, returns the minimum*/
-
-int find_minimum();
-
-/*Array of data and a length, sorts the array from largest to smallest.*/
-int sort_arry();
+void print_statistics(unsigned char *a , int n);
+void print_array(unsigned char *a , int n);
+float find_median(unsigned char *a , int n);
+float find_mean(unsigned char *a , int n);
+unsigned char find_maximum(unsigned char *a , int n);
+unsigned char find_minimum(unsigned char *a , int n);
+void sort_array(unsigned char *a , int n);
 
 
 
